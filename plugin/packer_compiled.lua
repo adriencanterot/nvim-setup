@@ -104,6 +104,16 @@ _G.packer_plugins = {
     path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
+  edge = {
+    loaded = true,
+    path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/edge",
+    url = "https://github.com/sainnhe/edge"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -135,6 +145,11 @@ _G.packer_plugins = {
     path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/molokai",
     url = "https://github.com/tomasr/molokai"
   },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -144,6 +159,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-startup.lua"] = {
+    loaded = true,
+    path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/nvim-startup.lua",
+    url = "https://github.com/henriquehbr/nvim-startup.lua"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -160,6 +180,11 @@ _G.packer_plugins = {
     path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  onehalf = {
+    loaded = true,
+    path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/onehalf",
+    url = "https://github.com/sonph/onehalf"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -169,6 +194,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["prettier.nvim"] = {
+    loaded = true,
+    path = "/Users/adriencanterot/.local/share/nvim/site/pack/packer/start/prettier.nvim",
+    url = "https://github.com/MunifTanjim/prettier.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

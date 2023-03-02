@@ -16,6 +16,8 @@ return require('packer').startup(function(use)
   use({'tomasr/molokai', config = function() 
 	  vim.cmd('colorscheme molokai')
   end})
+  use('sainnhe/edge')
+  use('sonph/onehalf', { rtp = 'vim' })
 
   use('nvim-lualine/lualine.nvim')
 
@@ -47,7 +49,18 @@ return require('packer').startup(function(use)
             -- Snippets
             {'L3MON4D3/LuaSnip'},             -- Required
             {'rafamadriz/friendly-snippets'}, -- Optional
+
+            -- Prettier
+            {'jose-elias-alvarez/null-ls.nvim'},
+            {'MunifTanjim/prettier.nvim'},
+
         }
     }
-end)
+
+    use("github/copilot.vim")
+    use("henriquehbr/nvim-startup.lua")
+
+  end)
+  
+
 

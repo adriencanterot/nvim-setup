@@ -1,7 +1,7 @@
 require('lualine').setup {
   options = {
     icons_enabled = false,
-    theme = 'molokai',
+    theme = 'powerline',
     component_separators = '|',
     section_separators = '',
   },
