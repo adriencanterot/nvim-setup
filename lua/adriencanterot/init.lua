@@ -1,2 +1,2 @@
-require("adriencanterot.remap")
-require("adriencanterot.set")
+require('adriencanterot.remap')
+require('adriencanterot.set')

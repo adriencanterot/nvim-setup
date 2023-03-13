@@ -3,8 +3,8 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 
 -- nvim-tree
-vim.keymap.set("n", "<leader>t", require('nvim-tree').toggle, { desc = "[T]oggle Nvim Tree" })
-vim.keymap.set("n", "<leader>r", require('nvim-tree').focus, { desc = "[T]oggle Nvim Tree" })
+vim.keymap.set("n", "<leader>t", require('nvim-tree.api').tree.toggle, { desc = "[T]oggle Nvim Tree" })
+vim.keymap.set("n", "<leader>r", require('nvim-tree.api').tree.focus, { desc = "[T]oggle Nvim Tree" })
 
 -- telescope
 vim.keymap.set('n', '<leader><space>', require('telescope.builtin').buffers, { desc = '[ ] Find existing buffers' })
