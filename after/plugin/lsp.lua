@@ -11,7 +11,6 @@ lsp.nvim_workspace()
 -- ensure installed 
 lsp.ensure_installed({
     'tsserver',
-    'eslint',
     'rust_analyzer',
 })
 
@@ -36,5 +35,12 @@ lsp.setup_nvim_cmp({
   mapping = cmp_mappings
 })
 
+local group = vim.api.nvim_create_augroup("lsp_format_on_save", { clear = false })
+local event = "BufWritePre" -- or "BufWritePost"
+local async = event == "BufWritePost"
+
+
 
 lsp.setup()
+-- (Optional) Configure null-ls
+
