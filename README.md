@@ -60,7 +60,7 @@ To use this Neovim configuration, follow these steps:
 
 1. Clone this repository to your local machine:
 
-`git clone https://github.com/yourusername/your-repo.git ~/.config/nvim`
+```git clone https://github.com/yourusername/your-repo.git ~/.config/nvim```
 
 2. Install the required Neovim version (0.5 or later):
 3. Install `packer.nvim` to manage plugins:
