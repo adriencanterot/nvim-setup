@@ -64,8 +64,10 @@ To use this Neovim configuration, follow these steps:
 
 2. Install the required Neovim version (0.5 or later):
 3. Install `packer.nvim` to manage plugins:
-```git clone https://github.com/wbthomason/packer.nvim
-~/.local/share/nvim/site/pack/packer/start/packer.nvim```
+```
+git clone https://github.com/wbthomason/packer.nvim
+~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
 
 
 4. Open Neovim and run the following command to install the plugins:
