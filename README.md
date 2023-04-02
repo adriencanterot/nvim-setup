@@ -1,6 +1,3 @@
-# nvim-setup
-My Private Neovim Setup
-
 # My Neovim Configuration
 
 This repository contains my Neovim configuration files and settings, which include various key mappings, plugins, and customizations. The configuration is built around the built-in LSP, Telescope, nvim-tree, and other plugins.
