@@ -31,7 +31,6 @@ This repository contains my Neovim configuration files and settings, which inclu
 - Go to the next buffer: `<S-n>`
 
 #### CoPilot
-
 - Trigger completion: `<Tab>` 
 
 ## Plugins
@@ -60,7 +59,7 @@ To use this Neovim configuration, follow these steps:
 
 1. Clone this repository to your local machine:
 
-```git clone https://github.com/yourusername/your-repo.git ~/.config/nvim```
+```git clone https://github.com/adriencanterot/nvim-setup.git ~/.config/nvim```
 
 2. Install the required Neovim version (0.5 or later):
 3. Install `packer.nvim` to manage plugins:
@@ -68,7 +67,6 @@ To use this Neovim configuration, follow these steps:
 git clone https://github.com/wbthomason/packer.nvim
 ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
-
 
 4. Open Neovim and run the following command to install the plugins:
 `:PackerInstall`
