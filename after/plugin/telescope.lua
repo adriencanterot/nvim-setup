@@ -1,6 +1,8 @@
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>f', builtin.find_files, {})
 
+local actions = require('telescope.actions')
+
 require('telescope').setup {
 	defaults = {
 		mappings = {
@@ -18,8 +20,19 @@ require('telescope').setup {
 			theme = 'ivy'
 		},
 		buffers = {
-			theme = 'ivy'
-		}
-	},
+			theme = 'ivy',
+      initial_mode = "normal",
+      sort_lastused = true,
+      mappings = {
+        n = {
+          ['o'] = actions.select_default,
+          ['d'] = actions.delete_buffer,
+        }
+      }
+		},
+    harpoon = {
+      theme = 'ivy'
+    }
+	}
 }
 
