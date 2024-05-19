@@ -8,30 +8,32 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   use {
-	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
-	  -- or                            , branch = '0.1.x',
-	  requires = { {'nvim-lua/plenary.nvim'} }
+    'nvim-telescope/telescope.nvim', tag = '0.1.4',
+    -- or                            , branch = '0.1.x',
+    requires = { {'nvim-lua/plenary.nvim'} }
   }
-  
   use({'tomasr/molokai', config = function() 
-	  vim.cmd('colorscheme molokai')
+    vim.cmd('colorscheme molokai')
   end})
   use('sainnhe/edge')
   use('sonph/onehalf', { rtp = 'vim' })
+  use('habamax/vim-polar')
 
   use('nvim-lualine/lualine.nvim')
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
 
   use {
-        'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons',
-        },
-    }
-    use {
-        'VonHeikemen/lsp-zero.nvim',
-        branch = 'v1.x',
+    'nvim-tree/nvim-tree.lua',
+    requires = {
+      'nvim-tree/nvim-web-devicons',
+    },
+  }
+ 	use({ "numToStr/Comment.nvim" })
+
+  use {
+    'VonHeikemen/lsp-zero.nvim',
+    branch = 'v1.x',
         requires = {
             -- LSP Support
             {'neovim/nvim-lspconfig'},             -- Required
