@@ -16,8 +16,8 @@ vim.keymap.set("n", "<C-L>", "<C-W><C-L>", { noremap = true })
 vim.keymap.set("n", "<C-H>", "<C-W><C-H>", { noremap = true })
 
 -- buffer navigation 
-vim.keymap.set("n", "<S-p>", ":bprevious<CR>")
-vim.keymap.set("n", "<S-n>", ":bnext<CR>")
+vim.keymap.set("n", "<leader>k", ":bprev<CR>")
+vim.keymap.set("n", "<leader>j", ":bnext<CR>")
 
 -- copilot
 vim.keymap.set("i", "<S-CR>", "<cmd>lua require('copilot.suggestion').accept()")
