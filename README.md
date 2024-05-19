@@ -54,6 +54,7 @@ Here is a list of the plugins used in this configuration:
 - LSP-zero: [VonHeikemen/lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim)
 - GitHub Copilot: [github/copilot.vim](https://github.com/github/copilot.vim)
 - Nvim-startup: [henriquehbr/nvim-startup.lua](https://github.com/henriquehbr/nvim-startup.lua)
+- Comment.nvim: [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)
 
 For a complete list of plugins and their dependencies, refer to the `packer.lua` file.
 
